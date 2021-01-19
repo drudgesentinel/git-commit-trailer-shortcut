@@ -3,4 +3,6 @@ const commander = require('commander');
 const program = new commander.Command();
 
 program
-  .option('-p, --partner', 'add partner for commit trailer');
+  .option('-m, --message', 'add commit message for the commit trailer');
+
+program.parse(process.argv);
