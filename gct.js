@@ -14,9 +14,9 @@ const options = program.opts();
 
 const fullCommitMessage = `${options.message}\n\n${config.coAuthor1}`
 //console.log(fullCommitMessage);
-exec(`/usr/bin/git add .; /usr/bin/git commit -m "${fullCommitMessage}"`, (error, stdout, stderr) => {
+exec(`/usr/bin/git commit -m "${fullCommitMessage}"`, (error, stdout, stderr) => {
   if(error) {
-    console.log(`Oh dear, this isn't supposed to happen. Error message: ${error.message}`);
+    console.log(`Oh dear, this isn't supposed to happen. Did you add the files before committing? Error message: ${error.message}`);
     return;
   }
   if(stderr) {
