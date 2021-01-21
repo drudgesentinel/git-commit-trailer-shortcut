@@ -1,0 +1,25 @@
+{
+  "name": "git-commit-trailer-shortcut",
+  "version": "1.0.0",
+  "description": "Allows easy use of commit trailers, drop in for commit -m after changing configuration file",
+  "main": "gct.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drudgesentinel/git-commit-trailer-shortcut.git"
+  },
+  "author": "Sean Meininger",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "gct": "./gct.js"
+  },
+  "bugs": {
+    "url": "https://github.com/drudgesentinel/git-commit-trailer-shortcut/issues"
+  },
+  "homepage": "https://github.com/drudgesentinel/git-commit-trailer-shortcut#readme",
+  "dependencies": {
+    "commander": "^7.0.0"
+  }
+}
