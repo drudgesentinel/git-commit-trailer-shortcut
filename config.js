@@ -1,4 +1,5 @@
 var config = {};
-config.coAuthor1 = "Co-authored-by: Sean Meininger <test@super-programmer.com>"
-//config.coAuthor2 = "Co-authored-by: Grace Hopper <github-email@super-programmer.com>"
+config.coAuthor1 = "Co-authored-by: Jim Bob <test@super-programmer.com>"
+//to add multiple authors, simply add a \n character between the the '>' and the "Co-authored-by" i.e.:
+//"Co-authored-by: Jim Bob <test@super-programmer.com> \n Co-authored-by: Marjorie Stewart-baxter <test2@super-programmer.com>"
 module.exports = config;
